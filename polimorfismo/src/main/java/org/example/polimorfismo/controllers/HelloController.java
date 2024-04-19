@@ -1,4 +1,4 @@
-package org.example.polimorfismo;
+package org.example.polimorfismo.controllers;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

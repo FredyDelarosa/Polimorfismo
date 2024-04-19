@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: a4a4a4;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.polimorfismo.controllers.registrocontroller">
+    <children>
+        <Text fontSmoothingType="LCD" layoutX="375.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Lista de Alumnos">
+            <font>
+                <Font name="Amble Regular" size="20.0" />
+            </font>
+        </Text>
+        <TextField fx:id="nameAlumno" layoutX="48.0" layoutY="563.0" prefHeight="35.0" prefWidth="223.0" style="-fx-background-color: #dedede; -fx-background-radius: 12; -fx-border-radius: 12;" />
+        <Text layoutX="71.0" layoutY="550.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NOMBRE DEL ALUMNO:">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <TextField fx:id="edad" layoutX="312.0" layoutY="563.0" prefHeight="35.0" prefWidth="223.0" style="-fx-background-color: #dedede; -fx-background-radius: 12; -fx-border-radius: 12;" />
+        <Text layoutX="392.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EDAD">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Text>
+        <Button layoutX="197.0" layoutY="631.0" mnemonicParsing="false" onMouseClicked="#btn_agregar" text="AGREGAR" />
+        <Button layoutX="450.0" layoutY="631.0" mnemonicParsing="false" onMouseClicked="#btn_actualizar" text="ACTUALIZAR" />
+        <Button layoutX="751.0" layoutY="631.0" mnemonicParsing="false" onMouseClicked="#btn_salir" text="SALIR" />
+        <ListView fx:id="ListaEstudiantes" layoutX="111.0" layoutY="300.0" prefHeight="183.0" prefWidth="688.0" style="-fx-background-color: #dedede;" />
+      <TextField fx:id="nacimiento" layoutX="576.0" layoutY="563.0" prefHeight="35.0" prefWidth="223.0" style="-fx-background-color: #dedede; -fx-background-radius: 12; -fx-border-radius: 12;" />
+      <Text layoutX="606.0" layoutY="549.0" strokeType="OUTSIDE" strokeWidth="0.0" text="FECHA DE NACIMIENTO:">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Text>
+    </children>
+</AnchorPane>
